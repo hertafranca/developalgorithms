@@ -1,4 +1,6 @@
 Algoritmo "Preço do bilhete do cinema"
+// Disciplina   : [Linguagem e Lógica de Programação] 
+// Professor   : Antonio Carlos Nicolodi 
 
 // Descrição   : Calcular e imprimir o preço do bilhete do cinema! (função)
 // Autor(a)    : Herta França
@@ -26,12 +28,20 @@ Inicio
 //Calcular e imprimir
 
    payTickets<- (person * ticketPrice)
-   escreval("O valor dos bilhetes são:",payTickets)
+  // escreval("O valor dos bilhetes são:",payTickets)
    
-   discountValue<- (ticketPrice * discount/100)
-   escreval("O valor do desconto é:",discountValue)
+   discountValue<- (payTickets * discount/100)
+  // escreval("O valor do desconto é:",discountValue)
    
-   payTotalDiscount<- (payTickets - discount)
-   escreval("O valor total com o desconto é:",payTotalDiscount)
+   payTotalDiscount<- (payTickets - discountValue)
+   //escreval("O valor total com o desconto é:",payTotalDiscount)
+   
+   se person > 10  então
+   
+      escreva (" O valor com desconto a pagar é: ",payTotalDiscount)
+   senão
+      escreva ( "O valor total a pagar é:", payTickets)
+   
+   fimse
 
 Fimalgoritmo
