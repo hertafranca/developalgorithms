@@ -1,17 +1,17 @@
-Algoritmo "Figura Geométrica"
+Algoritmo "Figura Geomï¿½trica"
 // Disciplina   : Desenvolvendo Algoritmo
-// Professor   : José Quelha
-// Descrição   : Mostrar a área e dizer o tipo de figura geométrica! (função)
-// Autor(a)    : Herta França
+// Professor   : Josï¿½ Quelha
+// Descriï¿½ï¿½o   : Mostrar a ï¿½rea e dizer o tipo de figura geomï¿½trica! (funï¿½ï¿½o)
+// Autor(a)    : Herta Franï¿½a
 // Data atual  : 10/09/2026
 Var
-// Seção de Declarações das variáveis 
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis 
 
 side1, side2, area: real
 geometricFigure: caractere
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc... 
 
 Escreval("Digite o valor do primeiro lado da figura:")
 Leia(side1)
@@ -26,11 +26,11 @@ Leia(side2)
    geometricFigure <- "square")
    
  senao
-    geometricFigure <- "triangle"
+    geometricFigure <- "rectangle"
 
  fimse
     
-    escreval(" A figura geomética possue uma área de:",area)
-    escreval(" A figura geométrica é um:", geometricFigure)
+    escreval(" A figura geomï¿½tica possue uma ï¿½rea de:",area)
+    escreval(" A figura geomï¿½trica ï¿½ um:", geometricFigure)
 
 Fimalgoritmo
