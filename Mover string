@@ -1,0 +1,8 @@
+n1=str(input('Digite uma palavra:'))
+n2=str(input('Digite a segunda palavra:'))
+print(
+'A primeira palavra escolhida foi: {} e a segunda palavra escolhida foi: {}.'.format(n1,n2))
+temp=n1
+n1=n2
+n2=temp 
+print('A primeira palavra escolhida foi: {} e a segunda palavra escolhida foi: {}.'.format(n1,n2))
