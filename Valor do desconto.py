@@ -6,7 +6,7 @@
 # A seguinte tabela, diferencia os descontos possíveis.
 
 # Solicita os dados ao utilizador
-staff = str(input('Digite o nome do funcionário:'))
+staff =(input('Digite o nome do funcionário:'))
 salary = float(input('Digite o valor do ordenado:€='))
 
 # Definir as percetagens de desconto
@@ -17,8 +17,6 @@ salary = float(input('Digite o valor do ordenado:€='))
 
 #Calcular os valores dos descontos
 
-donation = salary * discount
-#print(donation)
 
 if salary > 4000:
     discount = 0.04
@@ -29,10 +27,13 @@ elif salary > 500:       # 500 < ordenado <= 1000
 else:                      # ordenado <= 500
     discount = 0.01
 
+donation = salary * discount
+#print(donation)
 
 #Apresentar os resultados
-print('{}, a sua doação voluntária será de €={}'.format(staff,salary))
-print({desconto * 100:.0f}% do ordenado de {ordenado:.2f}€).')
+print('{}, a sua doação voluntária será de €={:.2f}'.format(staff,donation))
+print('A percetagem de desconto:{:.0f}%'.format(discount*100))
+
 
 
 
