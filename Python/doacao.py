@@ -15,8 +15,8 @@ print(donation)
 
 #Identificar o valor da doação:
 
-if donation <- d1:
-    d1= 10
+if donation <- "d1";
+    d1 = 10
 elif donation <- d2:      
     d2= 20
 elif donation <- d3:       
