@@ -1,5 +1,10 @@
 # Pretende-se desenvolver um algoritmo que permite imprima os números
 #pares até 100.
+#o.b.s:(quadro de comparação: 
+# para - for/ de 1 - range(1...)/ até 100 - 101 em range()/
+# passo 2 - ,2 / escreva(i) - print(i) /)
+
+# Agora executando em python:
 
 #For...To...Step
 i = 2
