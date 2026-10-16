@@ -10,8 +10,8 @@ d3=50
 d5=0
 
 #solicitar os dados ao utilizador:
-donation=(input('Digite o código para a doação(d1=10,d2=20,d3=50,d4=outro valor,d5=0):'))
-print(donation)
+opction=(input('Digite o código para a doação(d1=10,d2=20,d3=50,d4=outro valor,d5=0):'))
+print(opction)
 
 #Identificar o valor da doação:
 
@@ -26,3 +26,4 @@ elif donation <- d4:
 else:                     
     donation <- d5
     d5 = 0
+
